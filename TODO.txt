@@ -1,4 +1,0 @@
-Connect Accel pin 10 to 3.3V #20 DONE
-Charging status on GPIO #19
-CP2102 changes #18 (maybe other serial converter)
-Smaller vibrations motor (current is 10mm)
