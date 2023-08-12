@@ -1,15 +1,31 @@
-(module 154_Epaper_Display (layer F.Cu) (tedit 5F3ADF8F)
-  (attr virtual)
-  (fp_text reference REF** (at -7.12 -6.81) (layer F.SilkS) hide
-    (effects (font (size 1 1) (thickness 0.15)))
+(footprint "154_Epaper_Display" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (attr exclude_from_pos_files exclude_from_bom)
+  (fp_text reference "REF**" (at -7.12 -6.81) (layer "F.SilkS") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 4e950d4e-4a5f-4b7e-8446-e3e70209edc6)
   )
-  (fp_text value "1.54 E-Paper Display" (at -7.12 -7.81) (layer F.Fab)
-    (effects (font (size 1 1) (thickness 0.15)))
+  (fp_text value "1.54 E-Paper Display" (at -7.12 -7.81) (layer "F.Fab")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 4c4afdec-be67-4d58-9f65-eaed83fc2c4f)
   )
-  (fp_poly (pts (xy 15.94 18.25) (xy -15.86 18.25) (xy -15.86 -19.07) (xy 15.94 -19.07)) (layer F.Fab) (width 0.1))
-  (model "${KIPRJMOD}/3D/Waveshare 1.54 E ink - Display Flush Folded.stp"
-    (at (xyz 0 0 0))
+  (fp_poly
+    (pts
+      (xy 15.94 18.25)
+      (xy -15.86 18.25)
+      (xy -15.86 -19.07)
+      (xy 15.94 -19.07)
+    )
+
+    (stroke (width 0.1) (type solid)) (fill solid) (layer "F.Fab") (tstamp 10a4e5a6-ca6f-4434-b194-5bd0415ec508))
+  (model "${KIPRJMOD}/3D/Display.step"
+    (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 -90))
+  )
+  (model "${KIPRJMOD}/3D/Display.step" hide
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
   )
 )
