@@ -114,7 +114,7 @@
       "rule_severitieslegacy_no_courtyard_defined": false,
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.127,
+        "min_clearance": 0.09,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.3,
         "min_hole_clearance": 0.25,
@@ -123,12 +123,12 @@
         "min_microvia_drill": 0.09999999999999999,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
-        "min_text_height": 0.7999999999999999,
-        "min_text_thickness": 0.08,
+        "min_text_height": 1.0,
+        "min_text_thickness": 0.153,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.15239999999999998,
+        "min_track_width": 0.09,
         "min_via_annular_width": 0.13,
-        "min_via_diameter": 0.39999999999999997,
+        "min_via_diameter": 0.25,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -175,7 +175,9 @@
       "track_widths": [
         0.0,
         0.1524,
-        0.5
+        0.3,
+        0.5,
+        1.0
       ],
       "via_dimensions": [
         {
@@ -415,7 +417,9 @@
     "pinned_footprint_libs": [
       "Watchy"
     ],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "Watchy"
+    ]
   },
   "meta": {
     "filename": "Watchy.kicad_pro",
@@ -425,7 +429,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.15,
+        "clearance": 0.0,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -879,6 +883,18 @@
     [
       "4168ccf9-7940-46a9-babd-bad8c703bb50",
       ""
+    ],
+    [
+      "ef2aac30-d5a3-403d-bb2d-cec697abec45",
+      "Peripherals"
+    ],
+    [
+      "39827928-d1a0-4902-9449-7956fedeeaee",
+      "ESP32"
+    ],
+    [
+      "9757a6f9-3541-41ee-9009-80e653716a37",
+      "Power Management"
     ]
   ],
   "text_variables": {}
